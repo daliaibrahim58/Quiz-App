@@ -1,0 +1,156 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Setting Section */
+.setting {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.setting h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select, input[type="radio"] {
+    margin-right: 8px;
+}
+
+select {
+    padding: 2px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px; /* Adjust this value to make the dropdown height larger */
+}
+
+.submit {
+    margin-top: 15px;
+}
+
+/* Quiz Section */
+.quiz {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.current, .total {
+    font-weight: bold;
+    color: #333;
+}
+
+#questions {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container input[type="radio"] {
+    margin-right: 10px;
+}
+
+#next {
+    margin-top: 20px;
+}
+
+/* Final Section */
+.final {
+    display: none;
+    text-align: center;
+}
+
+.final h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.score {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+#again {
+    margin-top: 20px;
+    background-color: #ff5722;
+}
+
+#again:hover {
+    background-color: #e64a19;
+}
